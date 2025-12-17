@@ -14,7 +14,8 @@ The report is designed to support HR and management in making data-driven retent
 - Created a dedicated **Measures Table** for all KPIs
 
 ### Data Model (Star Schema)
-![Star Schema](screenshots/Model_View/star_schema.png)
+![Star Schema](HR-Attrition-Report/screenshots/Model_View/star_schema.png)
+
 
 ---
 
@@ -29,7 +30,8 @@ High-level KPIs and workforce overview:
 - Average Monthly Income
 - Total Salary Cost
 
-![Executive Summary](screenshots/Page1_Executive_Summary/full_page.png)
+![Executive Summary](HR-Attrition-Report/screenshots/Page1_Executive_Summary/full_page.png)
+
 
 ---
 
@@ -42,7 +44,7 @@ Detailed breakdown of attrition across:
 - Marital Status
 - Gender
 
-![Attrition Insights](screenshots/Page2_Attrition_Insights/full_page.png)
+![Attrition Insights](HR-Attrition-Report/screenshots/Page2_Attrition_Insights/full_page.png)
 
 ---
 
@@ -50,7 +52,8 @@ Detailed breakdown of attrition across:
 Drill-through enabled page to analyze individual employee details.
 Filters applied via visuals and drill-through fields for deeper analysis.
 
-![Drill Through](screenshots/Page3_Drill_Through/full_page.png)
+![Drill Through](HR-Attrition-Report/screenshots/Page3_Drill_Through/full_page.png)
+
 
 ---
 
