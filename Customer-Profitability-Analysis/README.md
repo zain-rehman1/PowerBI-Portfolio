@@ -169,7 +169,7 @@ These issues were documented as part of the data investigation process and shoul
 ## 📷 Project Preview
 
 ### Overview
-![Customer Profitability Overview](screenshots/01-overview.png)
+![Customer Profitability Overview](./screenshots/01-overview.png)
 ### Revenue & Profitability Insights
 ![Revenue & Profitability Insights](screenshots/02-revenue-profitability-insights.png)
 ### Customer & Product Insights
