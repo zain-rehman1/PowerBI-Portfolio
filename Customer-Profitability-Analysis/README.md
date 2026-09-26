@@ -181,12 +181,13 @@ These issues were documented as part of the data investigation process and shoul
 ![Customer & Product Insights](./screenshots/03-customer-product-insights.png)
 
 ---
-
 ## 📂 Dataset
 
 The dataset used in this project is a dummy dataset downloaded from an online source and is used for portfolio and demonstration purposes. It does not represent the financial performance of a real company.
 
 The analysis, data preparation, data modeling, DAX measures, and visualizations were developed as part of this portfolio project.
+
+**Dataset:** [customer-profitability-dataset.xlsx](data/customer-profitability-dataset.xlsx)
 ---
 
 ## 👤 Author
