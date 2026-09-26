@@ -28,7 +28,7 @@ This project demonstrates the application of data preparation, data modeling, DA
 * **DAX** — Measures and business calculations
 * **Data Modeling** — Relationships and dimensional modeling
 * **Data Visualization** — Interactive charts, KPIs, and dashboards
-* **Microsoft Excel** — Source data
+* **Microsoft Excel** — Dataset format
 
 ---
 
@@ -168,11 +168,25 @@ These issues were documented as part of the data investigation process and shoul
 
 ## 📷 Project Preview
 
-![Overview](./screenshots/01-overview.png)
+### Overview
+
+![Customer Profitability Overview](./screenshots/01-overview.png)
+
+### Revenue & Profitability Insights
 
 ![Revenue & Profitability Insights](./screenshots/02-revenue-profitability-insights.png)
 
+### Customer & Product Insights
+
 ![Customer & Product Insights](./screenshots/03-customer-product-insights.png)
+
+---
+
+## 📂 Dataset
+
+The dataset used in this project is a dummy dataset downloaded from an online source and is used for portfolio and demonstration purposes. It does not represent the financial performance of a real company.
+
+The analysis, data preparation, data modeling, DAX measures, and visualizations were developed as part of this portfolio project.
 ---
 
 ## 👤 Author
