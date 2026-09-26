@@ -191,7 +191,6 @@ The dataset used in this project is a dummy dataset downloaded from an online so
 
 The analysis, data preparation, data modeling, DAX measures, and visualizations were developed as part of this portfolio project.
 
-**Dataset:** [customer-profitability-dataset.xlsx](data/customer-profitability-dataset.xlsx)
 ---
 
 ## 📥 Project Files
