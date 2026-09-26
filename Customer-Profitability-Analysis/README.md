@@ -180,6 +180,10 @@ These issues were documented as part of the data investigation process and shoul
 
 ![Customer & Product Insights](./screenshots/03-customer-product-insights.png)
 
+### Data Model
+
+![Power BI Data Model](./screenshots/04-data-model.png)
+
 ---
 ## 📂 Dataset
 
