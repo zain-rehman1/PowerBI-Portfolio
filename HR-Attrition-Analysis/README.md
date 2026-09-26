@@ -6,7 +6,7 @@ The **HR Attrition Analysis Dashboard** is an interactive Power BI project desig
 
 The dashboard provides insights into attrition across employee demographics, departments, job roles, income groups, job satisfaction, overtime, work-life balance, and employee tenure.
 
-This project demonstrates the application of data preparation, data modeling, DAX measures, and interactive data visualization to support HR-focused business analysis.
+This project demonstrates the application of data preparation, DAX measures, a single-table analytical model, and interactive data visualization to support HR-focused business analysis.
 
 ---
 
@@ -15,11 +15,11 @@ This project demonstrates the application of data preparation, data modeling, DA
 * Analyze overall employee attrition and attrition rate.
 * Identify employee groups with higher attrition rates.
 * Analyze attrition across departments and job roles.
-* Investigate the relationship between overtime and employee attrition.
-* Analyze the relationship between job satisfaction and employee turnover.
+* Investigate differences in attrition between employees who work overtime and those who do not.
+* Analyze how attrition varies across job satisfaction levels.
 * Examine attrition patterns across age, gender, marital status, and education.
 * Investigate attrition across income groups and employee tenure.
-* Identify workforce factors that may require further HR investigation.
+* Identify workforce segments that may require further HR investigation.
 
 ---
 
@@ -28,7 +28,7 @@ This project demonstrates the application of data preparation, data modeling, DA
 * **Microsoft Power BI Desktop**
 * **Power Query** — Data preparation and transformation
 * **DAX** — Measures and business calculations
-* **Data Modeling** — Relationships and analytical modeling
+* **Data Modeling** — Single-table analytical model with a dedicated measures table
 * **Data Visualization** — Interactive charts, KPIs, and dashboards
 * **Microsoft Excel** — Dataset format
 
@@ -83,15 +83,14 @@ Analyzes workplace factors associated with employee attrition.
 * Attrition by Job Satisfaction & Overtime
 * Attrition by Work-Life Balance
 * Attrition Across Job Satisfaction and Work-Life Balance
-* Top Roles Driving Employee Attrition
-* Department Analysis
+* Top Roles by Attrition Rate
 * Overtime Analysis
 
 ---
 
 ## 🔄 Data Preparation & Modeling
 
-The dataset was investigated and prepared using Power Query and Power BI data modeling features.
+The dataset was investigated and prepared using Power Query and Power BI.
 
 ### Data Preparation
 
@@ -106,11 +105,11 @@ The dataset was investigated and prepared using Power Query and Power BI data mo
 
 ### Data Modeling
 
-* Created a dedicated measures table for DAX calculations.
-* Developed relationships and model structure required for analysis.
-* Created analytical measures for employee attrition and workforce metrics.
-* Organized measures separately from the source employee data.
-* Reviewed filtering behavior across dashboard visuals.
+* Used a single employee-level table as the primary analytical table.
+* Created a dedicated measures table to organize DAX calculations separately from the source employee data.
+* Developed analytical measures for employee attrition and workforce metrics.
+* Organized measures in a centralized location for easier report maintenance.
+* Used the single-table structure to support filtering and analysis across dashboard visuals.
 
 ---
 
@@ -120,27 +119,27 @@ The dashboard highlights several areas for further HR investigation:
 
 ### Overtime & Attrition
 
-Employees working overtime show a substantially higher attrition rate than employees who do not work overtime.
+Employees who work overtime have a substantially higher attrition rate than employees who do not work overtime in this dataset.
 
 ### Job Satisfaction
 
-Attrition varies across job satisfaction levels, with lower satisfaction levels showing higher attrition in several segments.
+Attrition varies across job satisfaction levels, with lower satisfaction levels generally showing higher attrition rates in the analyzed segments.
 
 ### Employee Age
 
-Younger employees, particularly those in the **18–25 age group**, show higher attrition compared with older employee groups.
+Younger employees, particularly those in the **18–25 age group**, show higher attrition compared with older employee groups in this dataset.
 
 ### Income Groups
 
-Attrition varies across income groups, with the lower-income group showing a higher attrition rate in this dataset.
+Attrition varies across income groups, with the lower-income group showing the highest attrition rate among the analyzed income groups.
 
 ### Employee Tenure
 
-Employees in their early stages of employment show higher attrition compared with employees with longer tenure.
+Employees in the early stages of employment show higher attrition rates compared with employees with longer tenure.
 
 ### Job Roles
 
-Attrition varies considerably across job roles, allowing HR teams to identify roles that may require additional investigation.
+Attrition rates vary considerably across job roles, allowing HR teams to identify roles that may require additional investigation.
 
 > These findings are descriptive patterns observed in the dataset and do not establish that any individual factor directly causes employee attrition.
 
@@ -152,6 +151,7 @@ The analysis is based on a portfolio dataset and therefore has limitations:
 
 * The dataset represents a fixed sample of employees rather than a live organizational workforce.
 * Observed relationships describe patterns in the dataset and should not be interpreted as causal relationships.
+* The dataset does not contain all organizational factors that may influence employee attrition.
 * Additional organizational information would be required to validate the findings and support real-world HR decisions.
 * Attrition patterns may vary across organizations, industries, locations, and time periods.
 
@@ -160,8 +160,9 @@ The analysis is based on a portfolio dataset and therefore has limitations:
 ## 📌 Skills Demonstrated
 
 * Data Cleaning & Transformation
+* Data Profiling
 * Exploratory Data Analysis
-* Data Modeling
+* Single-Table Data Modeling
 * DAX Measures
 * KPI Development
 * HR Analytics
@@ -193,13 +194,13 @@ The analysis is based on a portfolio dataset and therefore has limitations:
 
 The dataset used in this project is a dummy **HR employee attrition dataset** downloaded from an online source and is used for portfolio and demonstration purposes. It does not represent the workforce or employee information of a real company.
 
-The analysis, data preparation, data modeling, DAX measures, and visualizations were developed as part of this portfolio project.
+The analysis, data preparation, DAX measures, and visualizations were developed as part of this portfolio project.
 
 ---
 
 ## 📥 Project Files
 
-- **[Power BI Report (.pbix)](HR-Attrition-Analysis.pbix)** — Download and open with Power BI Desktop to explore the complete interactive report, data model, Power Query transformations, and DAX measures.
+- **[Power BI Report (.pbix)](HR-Attrition-Analysis.pbix)** — Download and open with Power BI Desktop to explore the complete interactive report, Power Query transformations, DAX measures, and dashboard pages.
 - **[Dataset (.xlsx)](data/HR-Attrition-Dataset.xlsx)** — Download the dataset used for the analysis.
 
 ## 👤 Author
