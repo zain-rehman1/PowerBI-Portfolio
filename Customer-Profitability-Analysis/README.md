@@ -190,6 +190,11 @@ The analysis, data preparation, data modeling, DAX measures, and visualizations 
 **Dataset:** [customer-profitability-dataset.xlsx](data/customer-profitability-dataset.xlsx)
 ---
 
+## 📥 Project Files
+
+- **[Power BI Report (.pbix)](Customer-Profitability-Analysis.pbix)** — Download and open with Power BI Desktop to explore the complete interactive report, data model, Power Query transformations, and DAX measures.
+- **[Dataset (.xlsx)](data/customer-profitability-dataset.xlsx)** — Download the dataset used for the analysis.
+
 ## 👤 Author
 
 **Zain Rehman**
